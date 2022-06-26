@@ -1,6 +1,6 @@
 import React from "react";
 import "../components/SocialStyle.css";
-import ContactForm from "./ContactForm";
+
 
 export default function Social(props) {
   return (
