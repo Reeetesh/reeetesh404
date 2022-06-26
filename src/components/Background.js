@@ -1,13 +1,14 @@
 import React from "react";
-import Particle from "react-particles-js";
+import Particles from "react-tsparticles";
 
 export default function Background(props) {
   return (
     <div>
-      <Particle
+      <Particles
         params={{
           fullScreen: {
             enable: true,
+            zIndex: -1,
           },
           fpsLimit: 60,
           particles: {
